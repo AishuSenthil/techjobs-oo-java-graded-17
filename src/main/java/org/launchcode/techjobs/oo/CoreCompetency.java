@@ -37,8 +37,21 @@ public class CoreCompetency {
     public int hashCode() {
         return Objects.hash(id);
     }
-
+//TASK 2
     // TODO: Use the "Generate" tool to add a getter and setter for the 'value' field but
     //  ONLY a getter for the 'id' field.
 
+//Getter and Setter for value
+    public String getValue() {
+        return value;
+    }
+
+    public void setValue(String value) {
+        this.value = value;
+    }
+
+// Only getter for ID as it carries unique values
+    public int getId() {
+        return id;
+    }
 }
